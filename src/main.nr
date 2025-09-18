@@ -1,4 +1,4 @@
-use dep::keccak256;
+
 use dep::ecrecover;
 fn main(
     pub_key_x: [u8; 32],

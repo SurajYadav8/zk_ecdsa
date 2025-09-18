@@ -6,5 +6,6 @@ authors = [" Suraj Yadav "]
 # Nargo.toml
 
 [dependencies]
-ecrecover = { tag = "v0.30.0", git = "https://github.com/colinnielsen/ecrecover-noir" }
-keccak256 = { tag = "v0.1.0", git = "https://github.com/noir-lang/keccak256" }
+ecrecover = { tag = "v1.0.0", git = "https://github.com/colinnielsen/ecrecover-noir" }
+array-helpers = { git = "https://github.com/<your-username>/noir-array-helpers", branch = "main" }
+# keccak256 = { tag = "v0.1.0", git = "https://github.com/noir-lang/keccak256" }
