@@ -40,7 +40,7 @@ pub_key_y=${pub_key_y#0x}
 signature=${signature#0x}
 
 # Strip last byte (2 hex chars) from signature to remove v
-signature=${signature:0:${#signature}-2}
+signature=${signature:0:${#signature}-2} 
 
 # Convert hex strings to decimal quoted arrays
 hashed_message_arr=$(hex_to_dec_quoted_array "$hashed_message")
